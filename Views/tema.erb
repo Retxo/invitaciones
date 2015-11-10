@@ -1,0 +1,10 @@
+<link href="/<%=@invitacion.tema%>.css" rel="stylesheet">
+<h1>Invitación para <%=@invitacion.tema%></h1>
+<div class="content">
+	<p><%=@invitacion.content%></p>
+</div>
+<% if @invitacion.tema == 'cumpleaños'%>
+	<img id="happy_birthday" src='images/happy_birthday.jpg' alt='Happy birthday'>
+<%end%>
+<div class="fullpath"><%=@fullpath%></div>
+<a href="/tema">GET URL</a>

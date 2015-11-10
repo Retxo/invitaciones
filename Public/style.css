@@ -1,0 +1,32 @@
+body{
+	background:linear-gradient(rgba(228,218,187,0.8),rgba(43,42,40,0.8));
+}
+textarea{
+	width:800px;
+	height:200px;
+	margin:20px 50px;
+	font-size: 20px;
+}
+input[type=radio]{
+	margin: 20px;
+	border:1px solid black;
+}
+input[type=submit]{
+	width:700px;
+	border:1px solid gray;
+	background-color: #4AC0E4;
+	margin:50px 100px;
+	
+}
+input[type=submit]:hover{
+	transition: background-color 1s;
+	cursor:pointer;
+	background-color: #599CB1;
+	border:1px solid gray;
+}
+#main{
+	border:1px solid black;
+	height:500px;
+	width:900px;
+	margin: 100px auto;
+}

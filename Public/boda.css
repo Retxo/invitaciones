@@ -1,0 +1,16 @@
+h1{
+	float:right;
+	margin:40px 60px 0 0;
+}
+p{
+	font-family:'Snell roundhand';
+	font-size:22px;
+	position:absolute;
+	margin: 100px 20px 200px 480px;
+}
+#main{
+	background:url('images/wedding.jpg') rgba(152,208,207,1) no-repeat;
+	background-size: 50%;
+	border-radius: 20px;
+	border-color:gray;
+}

@@ -1,0 +1,9 @@
+<h1>Crea tus propias invitaciones</h1>
+<!-- ¿Podria especificar un action previa a su asignación?? action ='/<%=:tema%>' -->
+<form action='/tema' method="post">
+	<textarea name="content" placeholder="introduce el texto de la invitación..."></textarea><br>
+	<input type="radio" name="tema" value="cumpleaños">Cumpleaños
+	<input type="radio" name="tema" value="boda">Boda
+	<input type="radio" name="tema" value="despedida">Despedida<br>
+	<input type="submit" value="Ver invitación">
+</form>
