@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 ruby '2.2.3'
 
-gem 'puma'
+
+gem 'thin'
 gem 'pg'
 gem 'sinatra'
 gem 'foreman'
