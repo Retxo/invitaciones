@@ -11,3 +11,9 @@ bundle exec rspec
 ```bash
 bundle exec shotgun app/routes.rb
 ```
+
+## Deploying to heroku
+
+```bash
+git push heroku && heroky logs --tail
+```
