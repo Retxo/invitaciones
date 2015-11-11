@@ -7,3 +7,6 @@ gem 'pg'
 gem 'sinatra'
 gem 'foreman'
 gem 'shotgun'
+gem 'rspec'
+gem 'pry'
+#comment
