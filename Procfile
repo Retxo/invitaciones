@@ -1,1 +1,1 @@
-web: bundle exec routes -C routes.rb
+web: bundle exec ruby routes.rb
