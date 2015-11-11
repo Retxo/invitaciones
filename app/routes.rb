@@ -18,7 +18,11 @@ def show_content(params)
 	#erb :cumpleanyos if @tema = 'cumpleanyos'
 end
 def set_url(tema, content)
-	@url_params = "?tema=#{tema}&content=#{content}"
+	@url_params = "?tema=#{tema}"
+	if not content.nil?
+		@url_params = @url_params + "&content=#{content}" 
+	end
+	@url_params
 end
 
 get '/' do 
